@@ -1,0 +1,95 @@
+Tool Parameters and Descriptions
+
+General Tool Information:
+
+    Tool Index (tool_index)
+    Preset Name (preset_name)
+    Type (tool_type)
+    Description (tool_description)
+    Diameter (tool_diameter)
+    Number (tool_number)
+    Unit (tool_unit)
+    Comment (tool_comment)
+    Material (tool_material)
+    Number of Flutes (tool_numberOfFlutes)
+    Number of Teeth (tool_numberOfTeeth)
+    Overall Length (tool_overallLength)
+
+Tool Holder Information
+
+Holder Details:
+
+    Holder Description (holder_description)
+    Holder Product ID (holder_productId)
+    Holder Product Link (holder_productLink)
+    Holder Vendor (holder_vendor)
+
+Cutting Specifications
+
+Cutting Properties:
+
+    Corner Radius (tool_cornerRadius)
+    Cutting Width (tool_cuttingWidth)
+    Cut Height (tool_cutHeight)
+    Depth of Cut (tool_depthOfCut)
+    Stepdown (tool_stepdown)
+    Stepover (tool_stepover)
+    Feed per Tooth (tool_feedPerTooth)
+    Feed per Revolution (tool_feedPerRevolution)
+    Plunge Feedrate (tool_feedPlunge)
+
+Advanced Tool Features
+
+Tool Assembly and Angles:
+
+    Tool Assembly Gauge Length (tool_assemblyGaugeLength)
+    Orientation (tool_angle)
+    Insert Size (tool_insertSize)
+    Insert Shape (tool_insertType)
+    Trailing Edge Length (tool_lengthNonCuttingEdge)
+    Leading Angle (tool_leadingAngle)
+    Relief Angle (tool_reliefAngle)
+    Taper Angle (tool_taperAngle)
+    Trailing Angle (tool_trailingAngle)
+    Turret (tool_turret)
+
+Feed and Speed Settings
+
+Spindle and Feed Rates:
+
+    Spindle Speed (tool_spindleSpeed)
+    Surface Speed (tool_surfaceSpeed)
+    Cutting Feedrate (tool_feedCutting)
+    Lead-In Feedrate (tool_feedEntry)
+    Lead-Out Feedrate (tool_feedExit)
+    Ramp Feedrate (tool_feedRamp)
+    Retract Feedrate (tool_feedRetract)
+
+Threading and Profile Specifications
+
+Threading Details:
+
+    Maximum Thread Pitch (tool_maximumThreadPitch)
+    Minimum Thread Pitch (tool_minimumThreadPitch)
+    Thread Pitch (tool_threadPitch)
+    Thread Profile Angle (tool_threadProfileAngle)
+    Thread Tip Radius (tool_threadTipRadius)
+    Thread Tip Width (tool_threadTipWidth)
+    Internal Thread (tool_internalThread)
+
+Tool Vendors and Links
+
+Vendor and Product Information:
+
+    Vendor (tool_vendor)
+    Product ID (tool_productId)
+    Product Link (tool_productLink)
+
+Additional Metadata
+
+Miscellaneous Properties:
+
+    Tool Library Version (tool_library_version)
+    Filter by Type (tool_presetMaterialCategory)
+    Filter by Search (tool_presetMaterialQuery)
+    Preset Program Number (tool_presetProgram)
