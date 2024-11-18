@@ -1,0 +1,13 @@
+{
+	"autodeskProduct":	"Fusion",
+	"type":	"addin",
+	"id":	"dd3450b3-e164-4bb2-a167-35be8f63b5a8",
+	"author":	"Chuck",
+	"description":	{
+		"":	"Exports the tool library of your choice on startup to a json file in a specified folder.\t"
+	},
+	"version":	"2",
+	"runOnStartup":	true,
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
