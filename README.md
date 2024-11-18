@@ -3,6 +3,8 @@ A add-on/scripts to export a Fusion 360 tool library and have it automatically u
 
 Tooling Inventory System
 
+To preface this, I'm not a programmer. I work in a machine shop and heavily relied on ChatGPT to help me figure out errors. 
+
 This is an open-source solution for managing a tooling inventory system integrated with Fusion 360. It uses a JSON export from Fusion 360 to automatically update a Google Sheet for tracking inventory in real time.
 Features
 
