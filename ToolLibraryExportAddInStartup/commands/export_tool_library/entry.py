@@ -17,24 +17,24 @@ def export_tool_library():
         cloud_url = tool_libraries.urlByLocation(adsk.cam.LibraryLocations.CloudLibraryLocation)
         # ui.messageBox("Step 4: Cloud library location URL obtained.")
 
-        # Locate the specific tool library by name "sm mill tools"
+        # Locate the specific tool library by name "name of your cloud tool library to export"
         tool_library_url = None
         for lib_url in tool_libraries.childAssetURLs(cloud_url):
-            if 'sm mill tools' in lib_url.leafName:
+            if 'name of your cloud tool library to export' in lib_url.leafName:
                 tool_library_url = lib_url
-                # ui.messageBox(f"Step 5: Found tool library 'sm mill tools' at URL: {tool_library_url.pathName}")
+                # ui.messageBox(f"Step 5: Found tool library 'name of your cloud tool library to export' at URL: {tool_library_url.pathName}")
                 break
         
         # Verify if the tool library was found
         if tool_library_url:
             tool_library = tool_libraries.toolLibraryAtURL(tool_library_url)
-            # ui.messageBox("Step 6: Cloud tool library 'sm mill tools' accessed successfully.")
+            # ui.messageBox("Step 6: Cloud tool library 'name of your cloud tool library to export' accessed successfully.")
         else:
-            # ui.messageBox("Tool library 'sm mill tools' not found in cloud assets.")
+            # ui.messageBox("Tool library 'name of your cloud tool library to export' not found in cloud assets.")
             return  # Exit if the library isn't found
 
         # Define the export path
-        export_folder = r"H:\.shortcut-targets-by-id\1dvcHFpb1yiGUOkVO8ik47hdDekWIkA0e\SILENT MFG\Tooling"
+        export_folder = r"Path to your google drive folder"
         export_path = os.path.join(export_folder, f"{tool_library_url.leafName}_export.json")
         # ui.messageBox(f"Step 7: Export path set to {export_path}")
 
