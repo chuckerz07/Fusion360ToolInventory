@@ -1,0 +1,17 @@
+This is an example of what the file would look like.
+
+
+        "description": "'3/8 ALU 3FL SQ'",
+        "product-id": "''",
+        "product-link": "''",
+        "vendor": "''",
+        "Type": "'flat end mill'",
+        "DC": "0.375in",
+        "OAL": "1.875in",
+        "Material": "'hss'",
+        "Number of Flutes": "3",
+        "Flute Length": "0.75in",
+        "Holder Product ID": "'CAT40-ER32-2.35'",
+        "Holder Product Link": "''",
+        "Holder Vendor": "'Maritool'",
+        "comment": "''"
